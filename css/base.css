@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(/images/body.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px; 
+  margin: 0 auto;    
+  padding: 0 20px;   
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+.button:hover {
+  background-color: #e65c00;
+}
+
+
